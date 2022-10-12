@@ -18,7 +18,7 @@ jobs:
 
       - uses: actions/setup-node@v2.1.5
         with:
-          node-version: '12'
+          node-version: '14'
 
       - run: npx vuepress build
       - name: Upload result of vuepress build
